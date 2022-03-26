@@ -1,0 +1,94 @@
+basics:
+  name: Zhendong Chen
+  label: Learning is a life style
+  image: ''
+  email: chenzhendong@yahoo.com
+  phone: (301) 686-4237
+  url: https://johndoe.com
+  summary: A summary of John Doe…
+  location:
+    address: 12308 Ambleside Drive  
+    postalCode: '20854'
+    city: Potomac, MD
+    countryCode: US
+    region: DC Metro Area
+  profiles:
+    - network: Linkein
+      username: chenzhendong
+      url: https://www.linkedin.com/in/chenzhendong/
+work:
+  - name: Commonwealth Informatics
+    position: Principal Deveoper
+    url: https://commoninf.com
+    startDate: '2022-02-07'
+    endDate: '2099-01-01'
+    summary: Description…
+    highlights:
+      - Started the company
+volunteer:
+  - organization: Chinese American Parents and Students Association Montgomery County
+    position: President
+    url: https://capsa-mc.org/
+    startDate: '2019-02-01'
+    endDate: '2099-01-01'
+    summary: Description…
+    highlights:
+      - Awarded 'Volunteer of the Month'
+education:
+  - institution: University of Arkansas at Little Rock
+    url: https://urlr.edu/
+    area: Computer Science
+    studyType: Bachelor
+    startDate: '2011-01-01'
+    endDate: '2013-01-01'
+    score: '4.0'
+    courses:
+      - DB1101 - Basic SQL
+awards:
+  - title: Award
+    date: '2014-11-01'
+    awarder: Company
+    summary: There is no spoon.
+certificates:
+  - name: Certificate
+    date: '2021-11-07'
+    issuer: Company
+    url: https://certificate.com
+publications:
+  - name: Publication
+    publisher: Company
+    releaseDate: '2014-10-01'
+    url: https://publication.com
+    summary: Description…
+skills:
+  - name: Web Development
+    level: Master
+    keywords:
+      - HTML
+      - CSS
+      - JavaScript
+languages:
+  - language: English
+    fluency: Native speaker
+interests:
+  - name: Wildlife
+    keywords:
+      - Ferrets
+      - Unicorns
+references:
+  - name: Jane Doe
+    reference: Reference…
+projects:
+  - name: Project
+    description: Description…
+    highlights:
+      - Won award at AIHacks 2016
+    keywords:
+      - HTML
+    startDate: '2019-01-01'
+    endDate: '2021-01-01'
+    url: https://project.com/
+    roles:
+      - Team Lead
+    entity: Entity
+    type: application
