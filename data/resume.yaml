@@ -4,7 +4,7 @@ basics:
   image: ''
   email: chenzhendong@yahoo.com
   phone: (301) 686-4237
-  url: https://johndoe.com
+  url: https://www.linkedin.com/in/chenzhendong/
   summary: A summary of John Doe…
   location:
     address: 12308 Ambleside Drive  
@@ -22,18 +22,80 @@ work:
     url: https://commoninf.com
     startDate: '2022-02-07'
     endDate: '2099-01-01'
-    summary: Description…
+    summary: |
+      Developing and maintaining a next-generation signal management platform providing end-to-end support for the signal and risk management process for the the pharmaceutical industry.
+      Fullstack desgin and development with technologies including Springboot, JPA, PostgresSQL and Angular
+      Lead and mentor senior and junior developers
     highlights:
       - Started the company
+  - name: 3M
+    position: SPEC ADVANCE SOFTWARE ENGINEER
+    url: https://3m.com
+    startDate: '2013-06-01'
+    endDate: '2022-02-05'
+    summary: |
+      Create a new Code Confidence Microservice with Kubernetes and spring cloud on AWS EKS
+      Design automation of machine learning model training solution on AWS for the NLP engine with AWS Step Function and Sagemaker with CDK
+      Serve as a technical leader for a five-person team in a scrum-based agile methodology
+      Providing technical insights to the product owners
+      Transforming requirements from product owner into sprint backlogs
+      Troubleshooting and exploring technical challenges for team members
+      Mentoring and code reviews for team members 
+      Designing and leading the implementation of an AWS based auto-scaled rule test developer NLP engine with Simple Queue Service, Auto Scaling Group, Elasticache, Parameter Store, S3, and DynamoDB as restful service and with Anuglar.js and Typescript as the web client. 
+      Designing and leading the implementation of the NLP engine including rule-based engine and machine learning engine.
+      Designing and leading the implementation of a Finite State Machine to handle the CPT measurement problem.
+      Designing and leading the implementation of the Rapid Content Release system help Subject Matter Expert writing coding rules, and invent the method allowing SME incremental development of the content with the specially designed JSON data structure.
+      Maintain the ensemble machine learning model as a part of the Natural Language Processing framework.
+      Exploring the new machine learning models for medical document handling
+      Designing and leading the implementation of a computer-assisted medical coding system implemented with polyglot microservice architecture. Mainly working on JEE, Spring Framework, Vert.x, Node.js, Golang as a backend, and JQuery, backbone.js, React.js as a front end. 
+      Designing and leading the implementation of a solution based on AWS cloud API for dynamic scaling
+      Designing and leading the implementation of the 'Datascout' project, a SOA-based, searching and analyzing medical record with Rest web api and Mongodb.
+    highlights:
+      - nothing
+  - name: SRA International (CSRA now)
+    position: Implementation Leader
+    url: https://www.gdit.com/
+    startDate: '2013-01-03'
+    endDate: '2013-06-01'
+    summary: |
+      Design and implement a web portal for Veteran Affair Office with Java Spring Framework
+      Design with SOA and Restful interface with Oracle, Hibernation, Weblogic, and Portlet 
+      Technical Leader of 7 persons team and server as Scrum Master
+    highlights:
+      - nothing
+  - name: Pitney Bowes
+    position: Senior Software Engineer
+    url: https://www.pitneybowes.com/us
+    startDate: '2013-01-03'
+    endDate: '2013-06-01'
+    summary: |
+      Developing distributed SOA applications for handling large datasets such as address coding, Geographic Intelligent coding. System is built-in RESTful & SOAP Web Services and can connect different databases such as SQL Server, Oracle, etc. Products are deployed on eight different platforms, NT, Linux, Solaris, HPUX, AIX, etc.
+      J2EE, Spring Framework Development, Object-Oriented Design 
+      Served as Scrum Master for a people team
+      Perl, C/C++ Library Development 
+      .NET Windows Application and UI Development
+    highlights:
+      - nothing
 volunteer:
   - organization: Chinese American Parents and Students Association Montgomery County
     position: President
     url: https://capsa-mc.org/
     startDate: '2019-02-01'
     endDate: '2099-01-01'
+    summary: |
+      Lead a volunteer team to provide one to one tutoring service for K12 Students
+      Metor student coordinators and coach leadership for young leadership
+      Connect to the community and collect the opinions and feedback for school district
+    highlights:
+      - More than 20 years history
+  - organization: Chinese American Parents Association Montgomery County
+    position: Board Memter, IT Director
+    url: https://capamc.org/
+    startDate: '2016-05-01'
+    endDate: '2099-01-01'
     summary: Description…
     highlights:
-      - Awarded 'Volunteer of the Month'
+      - Founding Member
 education:
   - institution: University of Arkansas at Little Rock
     url: https://urlr.edu/

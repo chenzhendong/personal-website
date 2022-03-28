@@ -1,7 +1,5 @@
 import PageFoot from "./resume/pageFoot";
 import NavBar from "./navBar";
-import ResumeChildren from './resume/resumeChildren'
-
 
 export default function PageLayout({children}) {
   return (
