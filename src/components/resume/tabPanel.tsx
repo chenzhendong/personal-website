@@ -1,4 +1,4 @@
-export default function TabPanel({ curPanel, updateCurPanel }) {
+export default function TabPanel({ basics, curPanel, updateCurPanel }) {
 
   function handleClick(e) {
     console.log(e)
@@ -19,7 +19,7 @@ export default function TabPanel({ curPanel, updateCurPanel }) {
     <>
       <div className="p-7 pb-8 block-section">
         <h2 className="block-title">About me</h2>
-        <p className="text-gray-600 mb-5">Libero quas veritatis nulla distinctio fuga nihil temporibus et. Quia dicta sapiente qui porro molestiae nobis incidunt voluptatem. Et voluptas sunt nihil. At perferendis voluptatem dolores nulla. Adipisci dolore non. Praesentium ipsa magnam ut quia explicabo voluptates.</p>
+        <ul className="text-gray-600 mb-5 ml-8 list-disc">{basics.summary.split('\n').map( line => <li className="mb-3">{line}</li>)} </ul>
 
         <div className="flex flex-col space-y-4">
           <a href="#0" className="mail-link social-link-hover">

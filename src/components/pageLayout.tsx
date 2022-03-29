@@ -1,4 +1,4 @@
-import PageFoot from "./resume/pageFoot";
+import PageFoot from "./pageFoot";
 import NavBar from "./navBar";
 
 export default function PageLayout({children}) {

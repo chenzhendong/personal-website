@@ -1,4 +1,4 @@
-export default function InfoPanel() {
+export default function InfoPanel({basics}) {
   return (
     <>
       <div className="p-7 block-section">
@@ -6,19 +6,19 @@ export default function InfoPanel() {
         <div className="space-y-4">
         <div className="flex justify-between">
             <div className="text-gray-400">Email</div>
-            <div className="font-medium text-right text-gray-600">chenzhendong@yahoo.com</div>
+            <div className="font-medium text-right text-gray-600">{basics.email}</div>
           </div>
           <div className="flex justify-between">
             <div className="text-gray-400">Location</div>
-            <div className="font-medium text-right text-gray-600">DC Metro Area</div>
+            <div className="font-medium text-right text-gray-600">{basics.location.region}</div>
           </div>
           <div className="flex justify-between">
             <div className="text-gray-400">Expertise</div>
-            <div className="font-medium text-right text-gray-600">Fullstack Deveoper <p/> System Architect</div>
+            <div className="font-medium text-right text-gray-600">{basics.expertise.map(line => <p>{line}</p>)}</div>
           </div>
           <div className="flex justify-between">
             <div className="text-gray-400">Experience</div>
-            <div className="font-medium text-right text-gray-600">20+ years</div>
+            <div className="font-medium text-right text-gray-600">{basics.seniority}</div>
           </div>
         </div>
       </div>

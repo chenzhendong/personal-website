@@ -8,7 +8,7 @@ import SkillPanel from "./skillPanel";
 import VolPanel from "./volPanel";
 import TabPanel from "./tabPanel";
 
-export default function ResumeLayout(props) {
+export default function ResumeLayout({resumeData}) {
   const [curPanel, setCurPanel] = useState<string>('Experience');
 
   function updateCurPanel(tabName) {
@@ -37,12 +37,12 @@ export default function ResumeLayout(props) {
     <>
         <div className='grid gap-5 lg:grid-cols-3'>
           <div className='space-y-5'>
-            <NamePanel />
-            <InfoPanel />
+            <NamePanel basics={resumeData.basics}/>
+            <InfoPanel basics={resumeData.basics}/>
             <SkillPanel />
           </div>
           <div className='space-y-5 lg:col-span-2'>
-            <TabPanel curPanel={curPanel} updateCurPanel={updateCurPanel} />
+            <TabPanel basics={resumeData.basics} curPanel={curPanel} updateCurPanel={updateCurPanel} />
             {
               conditionalRender()
             }
