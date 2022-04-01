@@ -19,7 +19,9 @@ export default function TabPanel({ basics, curPanel, updateCurPanel }) {
     <>
       <div className="p-7 pb-8 block-section">
         <h2 className="block-title">About me</h2>
-        <ul className="text-gray-600 mb-5 ml-8 list-disc">{basics.summary.split('\n').map( line => <li className="mb-3">{line}</li>)} </ul>
+        <div className="text-gray-600 text-justify rounded-md shadow-md p-5 m-5">
+          {basics.aboutMe}
+        </div>
 
         <div className="flex flex-col space-y-4">
           <a href="#0" className="mail-link social-link-hover">
@@ -48,6 +50,9 @@ export default function TabPanel({ basics, curPanel, updateCurPanel }) {
         <div className="border-t border-gray-200 my-5"></div>
 
         <ul className="flex space-x-8 font-medium">
+          <li>
+            {renderTab("Summary")}
+          </li>
           <li>
             {renderTab("Experience")}
           </li>

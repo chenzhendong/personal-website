@@ -7,9 +7,10 @@ import NamePanel from "./namePanel";
 import SkillPanel from "./skillPanel";
 import VolPanel from "./volPanel";
 import TabPanel from "./tabPanel";
+import SummaryPanel from "./summaryPanel";
 
 export default function ResumeLayout({resumeData}) {
-  const [curPanel, setCurPanel] = useState<string>('Experience');
+  const [curPanel, setCurPanel] = useState<string>('Summary');
 
   function updateCurPanel(tabName) {
     console.log("updating: " + tabName)
@@ -18,17 +19,20 @@ export default function ResumeLayout({resumeData}) {
 
   function conditionalRender() {
     switch(curPanel){
+      case 'Summary': {
+        return SummaryPanel( {basics: resumeData.basics})
+      }
       case 'Experience': {
-        return ExpPanel()
+        return ExpPanel( {work: resumeData.work} )
       }
       case 'Education': {
-        return EduPanel()
+        return EduPanel({education: resumeData.education})
       }
       case 'Certification': {
-        return CertPanel()
+        return CertPanel({certificates: resumeData.certificates})
       }
       case 'Volunteer': {
-        return VolPanel()
+        return VolPanel({volunteer: resumeData.volunteer})
       }
     }
   }

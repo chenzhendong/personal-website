@@ -4,17 +4,23 @@ basics:
   image: /zhendong.jpg
   email: chenzhendong@yahoo.com
   phone: (301) 686-4237
-  url: https://www.linkedin.com/in/chenzhendong/
+  url: https://www.linkedin.cMeom/in/chenzhendong/
+  aboutMe: >
+    I always keep the curiosity on the world and rarely pass up a good opportunity to learn something new. 
+    With a tremendously flexible minds, I am able to shift from idea to idea without effort. 
+    Not only I can draw strength from the tradition, I can also skip out the path dependency and pull together disparate thoughts from my extensive knowledge base,
+    with a little raw creativity to hold these them together, to formulate bold new ideas. 
+    Being able to analysis problems from every angle, I have no qualms about putting my enthusiasm and energy to find a solution for some interesting problems.
   summary: |-
-    A technical leader and enterprise architect with 20 years of experience in the software development industry.   Delivered multiple java-based,  high throughput, high concurrency enterprise-level software, and supported full application lifecycle endeavors.
+    A technical leader and enterprise architect with 20 years of experience in the software development industry.   Delivered multiple heterogenous,  high throughput, high concurrency enterprise-level software, and supported full application lifecycle endeavors.
     A Certified AWS expert with enterprise-level architecture experiences. Moving legacy systems from traditional infrastructures to a full AWS-based solution, defining all the infrastructures as code with CDK and CloudFormation technologies, shortening the migration timeline of the enterprise software suites to other countries and government cloud from years to weeks.
     Extensive experience in large amounts of structured and unstructured data processing, hygiene, cross-referencing, parsing, syntax analyzing,  annotation, and translating data into business knowledge.  Designed a heterogeneous database system that covers both SQL and No-SQL solutions.
-    Machine learning and NLP experience in handling Medical Notes with logistic regression, random forest, and XGBoost.  
+    Machine learning and NLP experience in handling Medical Notes with logistic regression, random forest, and XGBoost.
     Optimizing handling the real-time data flow with non-blocking restful services, asynchronous programming, and coroutine.
-    Having Rich DevOps experience in building CI/CD processes, especially for enterprise Java technology stack.  Having a deep understanding of how to improve the quality and security of enterprise software. 
+    Having a Rich DevOps experience in building CI/CD processes, especially for enterprise Java technology stack.  Having a deep understanding of how to improve the quality and security of enterprise software. 
     Proven track record of technology leadership since 2013. Inspiring and coaching a development team, providing hands-on technical leadership to support the daily development by composing the concept proven code, building the initial application framework.
     Strong interpersonal, organizational collaboration skills. Providing technical insights and conducting multiple enterprise integration to support the company’s acquisition endeavors.
-    Out-of-box thinking, submitted 3 inventions, which became trading secrets. Received circle of technical excellence and innovation award (CTE&I) for the innovation.
+    Out-of-box thinking, submitted 3 inventions, which became trading secrets. Received circle of technical excellence and innovation award from the company.
   location:
     address: 12308 Ambleside Drive
     postalCode: '20854'
@@ -32,23 +38,25 @@ basics:
   seniority: 20+ years
 work:
   - name: Commonwealth Informatics
-    position: Principal Deveoper
+    position: Principal Developer
     url: https://commoninf.com
-    startDate: '2022-02-07'
-    endDate: '2099-01-01'
-    summary: |
+    startDate: Feb, 2022
+    endDate: Present
+    location: Remote
+    summary: |-
       Developing and maintaining a next-generation signal management platform providing end-to-end support for the signal and risk management process for the the pharmaceutical industry.
-      Fullstack desgin and development with technologies including Springboot, JPA, PostgresSQL and Angular
+      Fullstack design and development with technologies including SpringBoot, JPA, PostgresSQL and Angular
       Lead and mentor senior and junior developers
     highlights:
       - Started the company
   - name: 3M
-    position: SPEC ADVANCE SOFTWARE ENGINEER
+    position: Special Advance Software Engineer
     url: https://3m.com
-    startDate: '2013-06-01'
-    endDate: '2022-02-05'
-    summary: |
-      Create a new Code Confidence Microservice with Kubernetes and spring cloud on AWS EKS
+    startDate: Jun, 2013
+    endDate: Feb, 2022
+    location: Sliver Spring, Maryland
+    summary: |-
+      Create a new Code Confidence Microservice with kubernetes and spring cloud on AWS EKS
       Design automation of machine learning model training solution on AWS for the NLP engine with AWS Step Function and Sagemaker with CDK
       Serve as a technical leader for a five-person team in a scrum-based agile methodology
       Providing technical insights to the product owners
@@ -69,9 +77,10 @@ work:
   - name: SRA International (CSRA now)
     position: Implementation Leader
     url: https://www.gdit.com/
-    startDate: '2013-01-03'
-    endDate: '2013-06-01'
-    summary: |
+    startDate: May, 2013
+    endDate: June, 2013
+    location: Fair lake, Virginia
+    summary: |-
       Design and implement a web portal for Veteran Affair Office with Java Spring Framework
       Design with SOA and Restful interface with Oracle, Hibernation, Weblogic, and Portlet
       Technical Leader of 7 persons team and server as Scrum Master
@@ -80,12 +89,13 @@ work:
   - name: Pitney Bowes
     position: Senior Software Engineer
     url: https://www.pitneybowes.com/us
-    startDate: '2013-01-03'
-    endDate: '2013-06-01'
-    summary: |
+    startDate: May, 2006
+    endDate: Jun, 2013
+    location: Lanham, Maryland
+    summary: |-
       Developing distributed SOA applications for handling large datasets such as address coding, Geographic Intelligent coding. System is built-in RESTful & SOAP Web Services and can connect different databases such as SQL Server, Oracle, etc. Products are deployed on eight different platforms, NT, Linux, Solaris, HPUX, AIX, etc.
       J2EE, Spring Framework Development, Object-Oriented Design
-      Served as Scrum Master for a people team
+      Served as Scrum Master for a 7 people team
       Perl, C/C++ Library Development
       .NET Windows Application and UI Development
     highlights:

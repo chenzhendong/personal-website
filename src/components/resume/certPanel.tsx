@@ -1,4 +1,4 @@
-export default function CertPanel() {
+export default function CertPanel({certificates}) {
   return (
     <>
       <div className="p-7 block-section">

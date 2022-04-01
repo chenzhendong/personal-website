@@ -1,4 +1,4 @@
-export default function VolPanel() {
+export default function VolPanel({volunteer}) {
   return (
     <>
       <div className="p-7 block-section">

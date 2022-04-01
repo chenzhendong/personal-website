@@ -1,4 +1,4 @@
-export default function EduPanel() {
+export default function EduPanel({education}) {
   return (
     <>
       <div className="p-7 block-section">
