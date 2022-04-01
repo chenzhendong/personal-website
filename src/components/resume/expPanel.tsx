@@ -13,7 +13,7 @@ export default function ExpPanel({ work }) {
                   <i className="bx bxl-twitter text-3xl"></i>
                 </div>
                 <div className="w-full space-y-5">
-                  <div className="item-header pr-10">
+                  <div className="item-header">
                     <div className="space-y-1.5">
                       <div className="font-medium">{exp.position}</div>
                       <div className="flex space-x-5">
@@ -47,7 +47,7 @@ export default function ExpPanel({ work }) {
                       .split('\n')
                       .map(
                         line =>
-                          <li className="mx-5 p-2 text-violet-300 text-justify"><span className="text-gray-600">{line}</span></li>
+                          <li className="mx-5 text-justify text-violet-300"><span className="text-gray-500">{line}</span></li>
                       )}
                   </p>
                   <div className="border-b border-gray-200"></div>

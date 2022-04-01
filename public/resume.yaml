@@ -47,8 +47,7 @@ work:
       Developing and maintaining a next-generation signal management platform providing end-to-end support for the signal and risk management process for the the pharmaceutical industry.
       Fullstack design and development with technologies including SpringBoot, JPA, PostgresSQL and Angular
       Lead and mentor senior and junior developers
-    highlights:
-      - Started the company
+    jobType: Full Time
   - name: 3M
     position: Special Advance Software Engineer
     url: https://3m.com
@@ -72,20 +71,18 @@ work:
       Designing and leading the implementation of a computer-assisted medical coding system implemented with polyglot microservice architecture. Mainly working on JEE, Spring Framework, Vert.x, Node.js, Golang as a backend, and JQuery, backbone.js, React.js as a front end. 
       Designing and leading the implementation of a solution based on AWS cloud API for dynamic scaling
       Designing and leading the implementation of the 'Datascout' project, a SOA-based, searching and analyzing medical record with Rest web api and Mongodb.
-    highlights:
-      - nothing
+    jobType: Full Time
   - name: SRA International (CSRA now)
     position: Implementation Leader
     url: https://www.gdit.com/
     startDate: May, 2013
     endDate: June, 2013
-    location: Fair lake, Virginia
+    location: Fair lakes, Virginia
     summary: |-
       Design and implement a web portal for Veteran Affair Office with Java Spring Framework
       Design with SOA and Restful interface with Oracle, Hibernation, Weblogic, and Portlet
       Technical Leader of 7 persons team and server as Scrum Master
-    highlights:
-      - nothing
+    jobType: Full Time
   - name: Pitney Bowes
     position: Senior Software Engineer
     url: https://www.pitneybowes.com/us
@@ -98,64 +95,207 @@ work:
       Served as Scrum Master for a 7 people team
       Perl, C/C++ Library Development
       .NET Windows Application and UI Development
-    highlights:
-      - nothing
+    jobType: Full Time
+  - name: Acxiom
+    position: Solution Developer
+    url: https://www.acxiom.com
+    startDate: May, 2006
+    endDate: July, 2004
+    location: Little Rock, Arkansas
+    summary: |-
+      Data solution and OO Design
+      Java, Perl, AWK, and Shell Script Programming, Linux
+      Unix system Administration and configuration
+      Oracle Database Administration and Development
+      Large Data Set Handling and Complicate PL-SQL and T-SQL Development and Tuning
+      Security Policy Development on Data Transfer
+      Served Clients - Target, Lowes, Ralph Lauren, Gucci, Citi Bank
+    jobType: Full Time
+  - name: Softwyre
+    position: Software Engineer
+    url: https://www.softwyre.com
+    startDate: July, 2003
+    endDate: July, 2004
+    location: Maumelle, Arkansas
+    summary: |-
+      Arkansas Time Content Management System with .NET
+      National Bank of Arkansas Mortgage Application System with JEE
+      Online Store and Shopping cart web application for Bob Robbins, ScrubBug Uniform, Overkill Hunting Store
+      Ascend Tech online time Tracking System with C# and .NET
+    jobType: Full Time
 volunteer:
   - organization: Chinese American Parents and Students Association Montgomery County
     position: President
     url: https://capsa-mc.org/
-    startDate: '2019-02-01'
-    endDate: '2099-01-01'
-    summary: |
+    startDate: Feb 2019
+    endDate: Present
+    summary: |-
       Lead a volunteer team to provide one to one tutoring service for K12 Students
-      Metor student coordinators and coach leadership for young leadership
+      Mentor student coordinators and coach leadership for young leadership
       Connect to the community and collect the opinions and feedback for school district
     highlights:
       - More than 20 years history
   - organization: Chinese American Parents Association Montgomery County
-    position: Board Memter, IT Director
+    position: Board Member, IT Director
     url: https://capamc.org/
-    startDate: '2016-05-01'
-    endDate: '2099-01-01'
-    summary: Description…
-    highlights:
-      - Founding Member
+    startDate: May 2016
+    endDate: Present
+    summary: |-
+      Founding member of CAPA-MC
+      Advocate Chinese community and communicate with school district
+      Create Full IT solution for the organization, include website, membership management
+      Serve as a board member to decide the organization direction
+  - organization: Herbert Hoover Middle School
+    position: Coding Club
+    url: https://www2.montgomeryschoolsmd.org/schools/hooverms/
+    startDate: Sep 2018
+    endDate: Jun 2019
+    summary: |-
+      Teach middle school students coding with Python
 education:
   - institution: University of Arkansas at Little Rock
     url: https://urlr.edu/
     area: Computer Science
+    studyType: Master
+    startDate: July 2003
+    endDate: June 2001
+    location: Little Rock, AR USA
+    thesis: A Universal CORBA Adapter for Java (Published)
+  - institution: Shanghai JiaoTong University
+    url: https://sjtu.edu.cn/
+    area: Civil Engineering
+    studyType: Master
+    startDate: Sep 1998
+    endDate: Jan 2001
+    location: Shanghai, China
+    thesis: objective-oriented programming in FEM Structure Computation (Published)
+  - institution: Shanghai JiaoTong University
+    url: https://sjtu.edu.cn/
+    area: Materials Science
     studyType: Bachelor
-    startDate: '2011-01-01'
-    endDate: '2013-01-01'
-    score: '4.0'
-    courses:
-      - DB1101 - Basic SQL
+    startDate: Sep 1993
+    endDate: June 1997
+    location: Shanghai, China
+    thesis: Computer simulation on Ni-AL material defection
 awards:
   - title: Award
     date: '2014-11-01'
     awarder: Company
     summary: There is no spoon.
 certificates:
-  - name: Certificate
-    date: '2021-11-07'
-    issuer: Company
-    url: https://certificate.com
+  - name: AWS Certified Solutions Architect – Associate
+    date: Nov 2020
+    issuer: Amazon
+  - name: Sun Certified Java Programmer
+    date: July 2003
+    issuer: Sun Mirosystems
+  - name: Microsoft Certified Solution Developer for .NET Framework
+    date: May 2004
+    issuer: Microsoft
+  - name: Microsoft Certified Database Administrator
+    date: Jun 2003
+    issuer: Microsoft
+  - name: Cisco Certified Network Associate
+    date: May 2001
+    issuer: Cisco
+  - name: Programmer Certified by the Labor Department of P. R. China
+    date: June 1996
+    issuer: Chinese Labor Department
 publications:
-  - name: Publication
-    publisher: Company
-    releaseDate: '2014-10-01'
-    url: https://publication.com
-    summary: Description…
+  - name:  A CORBA Adapter to Promote Reusability of Java Components
+    publisher: 3rd International Conference on the Principles and Practice of Programming in Java
+    releaseDate: Jun 2004
+  - name: Use of Magneto Myographic (MMG) Signals to calculate the dependency properties of the Active Sensors in Myometrial Activity Monitoring
+    publisher: 13th International; Conference on Artificial Neural Network and 10th International Conference on Neural Processing, ICANN/ICONIP
+    releaseDate: Jun 2003
+  - name: Object-Oriented Programming on Adaptive FEM
+    publisher: Journal of Shanghai JiaoTong University
+    releaseDate: Jan 2001
 skills:
-  - name: Web Development
-    level: Master
+  - name: Programming Language
     keywords:
-      - HTML
-      - CSS
-      - JavaScript
+      - Java
+      - Python
+      - Typescript/JavaScript
+      - Golang
+      - HTML5
+      - Shell
+      - C#
+      - C/C++
+  - name: Cloud
+    keywords:
+      - AWS
+      - ECS
+      - CloudFormation
+      - Lambda Function
+      - EKS
+      - S3
+      - Elasticache
+      - Sagemaker
+      - Step Function
+      - CodeBuild
+      - CodePipeline
+      - SMS
+      - SES
+      - Kubernetes
+      - Azure
+      - GCP
+  - name: Backend
+    keywords:
+      - Springboot
+      - Microservice
+      - JEE
+      - Restful API
+      - GraphQL
+      - Hadoop
+      - Spark
+      - Linux
+      - Windows
+      - OSX
+      - OAUTH2
+      - JWT
+      - SAML
+      - MySQL
+      - PostgresSQL
+      - Redis
+      - Memcache
+      - Mongodb
+      - DynamoDB
+  - name: Frontend
+    keywords:
+      - Node.js
+      - Next.js
+      - Angular
+      - React.js
+      - npm
+      - yarn
+  - name: DevOps
+    keywords:
+      - Jenkins
+      - Maven
+      - Gradle
+      - GIT
+      - Junit
+      - Ansible
+      - Puppet
+      - Vagrant
+      - Docker
+      - AWS CDK
+      - Pulumi
+      - CodePipeline
+  - name: AI
+    keywords:
+      - Pytorch
+      - Machine Learning
+      - Panda
+      - Scikit
+      - UIMA
+      - Sagemaker
 languages:
-  - language: English
+  - language: Chinese
     fluency: Native speaker
+  - language: English
+    fluency: Fluent
 interests:
   - name: Wildlife
     keywords:

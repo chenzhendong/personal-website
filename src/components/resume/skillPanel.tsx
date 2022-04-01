@@ -1,22 +1,23 @@
-export default function SkillPanel() {
+export default function SkillPanel({ skills }) {
   return (
     <>
       <div className="p-7 block-section flow-root">
         <h2 className="block-title">Skills</h2>
-        <div className="-m-2 flex flex-wrap">
-          <span className="skill-tag">AWS</span>
-          <span className="skill-tag">Next.js</span>
-          <span className="skill-tag">Springboot</span>
-          <span className="skill-tag">SQL</span>
-          <span className="skill-tag">Node.js</span>
-          <span className="skill-tag">Maven</span>
-          <span className="skill-tag">JavaScript</span>
-          <span className="skill-tag">React</span>
-          <span className="skill-tag">Vue</span>
-          <span className="skill-tag">SQL</span>
-          <span className="skill-tag">HTML/CSS</span>
-          <span className="skill-tag">Java</span>
-        </div>
+        {skills.map(
+          (skill) => {
+            return <div className="rounded-md shadow-md py-5 my-5 px-2">
+              <div className="font-bold text-gray-400 mb-5">{skill.name}</div>
+              <div className="-m-2 flex flex-wrap justify-start">
+                {
+                  skill.keywords.map(
+                    (keyword) => {
+                      return <span className="skill-tag">{keyword}</span>
+                    })
+                }
+              </div>
+            </div>
+          })
+        }
       </div>
     </>
   );

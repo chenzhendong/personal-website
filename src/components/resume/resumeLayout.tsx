@@ -43,7 +43,7 @@ export default function ResumeLayout({resumeData}) {
           <div className='space-y-5'>
             <NamePanel basics={resumeData.basics}/>
             <InfoPanel basics={resumeData.basics}/>
-            <SkillPanel />
+            <SkillPanel skills={resumeData.skills} />
           </div>
           <div className='space-y-5 lg:col-span-2'>
             <TabPanel basics={resumeData.basics} curPanel={curPanel} updateCurPanel={updateCurPanel} />
