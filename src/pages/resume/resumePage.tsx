@@ -15,7 +15,7 @@ export default function ResumePage() {
         setLoaded(true)
       }
     }
-    fetchData(resumeData)
+    fetchData()
   })
 
   return (
