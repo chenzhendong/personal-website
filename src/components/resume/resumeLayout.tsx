@@ -28,7 +28,7 @@ export default function ResumeLayout({resumeData}) {
       case 'Education': {
         return EduPanel({education: resumeData.education})
       }
-      case 'Certification': {
+      case 'Certificate': {
         return CertPanel({certificates: resumeData.certificates})
       }
       case 'Volunteer': {

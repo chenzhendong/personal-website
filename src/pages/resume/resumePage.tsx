@@ -9,11 +9,13 @@ export default function ResumePage() {
   const [loaded, setLoaded] = useState(false)
   useEffect(() => {
     const fetchData = async () => {
-      const res = await fetch('/resume.yaml');
-      setResumeData(yaml.load(await res.text()));
-      setLoaded(true)
+      if (!loaded) {
+        const res = await fetch('/resume.yaml');
+        setResumeData(yaml.load(await res.text()));
+        setLoaded(true)
+      }
     }
-    fetchData()
+    fetchData(resumeData)
   })
 
   return (

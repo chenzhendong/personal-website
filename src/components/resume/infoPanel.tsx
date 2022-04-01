@@ -14,7 +14,7 @@ export default function InfoPanel({basics}) {
           </div>
           <div className="flex justify-between">
             <div className="text-gray-400">Expertise</div>
-            <div className="font-medium text-right text-gray-600">{basics.expertise.map(line => <p>{line}</p>)}</div>
+            <div className="font-medium text-right text-gray-600">{basics.expertise.map(line => <p key={line} >{line}</p>)}</div>
           </div>
           <div className="flex justify-between">
             <div className="text-gray-400">Experience</div>

@@ -60,7 +60,7 @@ export default function TabPanel({ basics, curPanel, updateCurPanel }) {
             {renderTab("Education")}
           </li>
           <li>
-            {renderTab("Certification")}
+            {renderTab("Certificate")}
           </li>
           <li>
             {renderTab("Volunteer")}
