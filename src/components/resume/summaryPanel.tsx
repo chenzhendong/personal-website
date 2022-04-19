@@ -1,8 +1,8 @@
 export default function SummaryPanel({basics}) {
   return (
     <>
-      <div className="p-7 block-section">
-        <h2 className="block-title">Career Highlights</h2>
+      <div className="block-section">
+        <div className="block-title">Career Highlights</div>
         <div className="text-gray-600 mb-5 ml-8 list-disc">
           <ul className="">
             {

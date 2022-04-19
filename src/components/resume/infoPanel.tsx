@@ -1,9 +1,9 @@
 export default function InfoPanel({basics}) {
   return (
     <>
-      <div className="p-7 block-section">
-        <h2 className="block-title">Information</h2>
-        <div className="space-y-4">
+      <div className="block-section">
+        <div className="block-title">Information</div>
+        <div className="space-y-2 mt-5">
         <div className="flex justify-between">
             <div className="text-gray-400">Email</div>
             <div className="font-medium text-right text-gray-600">{basics.email}</div>

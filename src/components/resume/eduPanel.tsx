@@ -1,8 +1,8 @@
 export default function EduPanel({ education }) {
   return (
     <>
-      <div className="p-7 block-section">
-        <h2 className="block-title">Education</h2>
+      <div className="block-section">
+        <div className="block-title">Education</div>
         <div className="mb-5 item-section">
           <div className="flex-shrink-0 w-12 h-12 rounded-xl bg-cover">
           </div>

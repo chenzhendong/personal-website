@@ -17,9 +17,9 @@ export default function TabPanel({ basics, curPanel, updateCurPanel }) {
 
   return (
     <>
-      <div className="p-7 pb-8 block-section">
-        <h2 className="block-title">About me</h2>
-        <div className="text-gray-600 text-justify rounded-md shadow-md p-5 m-5">
+      <div className="pb-8 block-section">
+        <div className="block-title">About me</div>
+        <div className="text-gray-600 text-justify italic rounded-md shadow-md p-5 m-5">
           {basics.aboutMe}
         </div>
 

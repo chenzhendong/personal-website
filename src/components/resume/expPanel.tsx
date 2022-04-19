@@ -3,8 +3,8 @@ import { workerData } from "worker_threads";
 export default function ExpPanel({ work }) {
   return (
     <>
-      <div className="p-7 block-section">
-        <h2 className="block-title">Experience</h2>
+      <div className="block-section">
+        <div className="block-title">Experience</div>
         {
           work.map(
             (exp) => {

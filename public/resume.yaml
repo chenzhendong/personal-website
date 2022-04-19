@@ -123,6 +123,17 @@ work:
       Online Store and Shopping cart web application for Bob Robbins, ScrubBug Uniform, Overkill Hunting Store
       Ascend Tech online time Tracking System with C# and .NET
     jobType: Full Time
+  - name: PricewaterhouseCoopers LLP
+    position: Consultant
+    url: https://www.pwc.com
+    startDate: May, 1999
+    endDate: Sep, 1999
+    location: Shanghai, China
+    summary: |-
+      Travel to 10 cities and research on weaving machines market
+      Create questionnaire and interview factory owners
+      Data analysis and Create management consulting reports for client
+    jobType: Intern
 volunteer:
   - organization: Chinese American Parents and Students Association Montgomery County
     position: President

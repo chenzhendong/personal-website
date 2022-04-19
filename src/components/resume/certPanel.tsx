@@ -2,7 +2,7 @@ export default function CertPanel({ certificates }) {
   return (
     <>
       <div className="p-10 block-section">
-        <h2 className="block-title">Certification</h2>
+        <div className="block-title">Certification</div>
         {
           certificates.map(
             (cert) => {
